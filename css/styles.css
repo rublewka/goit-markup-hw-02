@@ -72,6 +72,10 @@ body {
     color: var(--acent-color);
 }
 
+.active {
+    color: var(--acent-color);
+}
+
 /* Главная страница */
 /* Секция герой */
 .hero {
@@ -141,6 +145,7 @@ body {
 .filters .filter:hover,
 .filters .filter:focus {
     background-color: var(--acent-color);
+    color: var(--alternative-color);
 }
 
 .example-name {
@@ -151,9 +156,20 @@ body {
     color: var(--title-color);
 }
 
+.example-description {
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 400;
+}
+
 /* Стилизация подвала */
 footer {
     background-color: #2F303A;
+}
+
+.footer-logo,
+.foot-link.located {
+    color: var(--alternative-color);
 }
 
 .contacts .foot-link {
@@ -162,7 +178,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts .foot-link:hover,
-.contacts .foot-link:focus {
+.footer-logo,
+.foot-link.located {
     color: var(--alternative-color);
 }
